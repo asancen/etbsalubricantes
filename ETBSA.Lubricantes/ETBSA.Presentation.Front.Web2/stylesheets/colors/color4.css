@@ -1,0 +1,121 @@
+/**
+  * Color
+  * Border Color
+  * Background Color  
+*/
+
+/* Color
+-------------------------------------------------------------- */
+.flat-information > li:before,
+.flat-information > li > a:hover,
+.social-links a:hover,
+#mainnav > ul > li > a:hover, 
+#mainnav > ul > li.home > a,
+a:hover, a:focus,
+.iconbox .box-redmore,
+#flat-testimonials-flexslider .testimonial-author .author-name span,
+.footer-widgets ul.footer-info li:before,
+.widget.widget-recent-post ul li .content h3 a,
+.widget_tweets ul li:before,
+.widget_tweets ul li a,
+article .more-link a,
+article ul.meta-post li a:hover,
+.widget.widget_categories ul li a:hover,
+.widget.widget-recent-news ul li .text:before,
+.blog-pagination .flat-pagination li.prev a:hover, 
+.blog-pagination .flat-pagination li.next a:hover,
+.breadcrumbs ul li a:hover,
+.breadcrumbs ul li:before,
+.menu.menu-extra li a,
+.nav-wrap .top-search #searchform-all #searchsubmit,
+ul.portfolio-filter > li.active a,
+ul.portfolio-filter > li a:hover,
+.bottom .copyright a,
+footer a:hover, .flat-contact-form .input-wrap label, .flat-contact-form .textarea-wrap label,
+.widget.widget_tag .tag-list a.active, .blog-single blockquote::before, .widget.widget_tag .tag-list a:hover, .widget .widget-title, .widget.widget-recent-news ul li .text p  {
+	color: #002E5B;
+}
+
+.tp-caption.title-slide {
+	color: #002E5B!important;
+}
+
+.flat-button.bg-theme:hover, article ul.meta-post li a:hover {
+	color: #fff;
+}
+
+/* Border Color
+-------------------------------------------------------------- */
+.blog-carosuel.owl-theme .owl-dots .owl-dot.active span::before,
+#flat-testimonials-carousel ul li:first-child img,
+.flex-direction-nav a,
+.nav-wrap .top-search #searchform-all #s,
+.widget.widget_search .search-form input[type="search"], .widget.widget_search .search-form input[type="search"]:focus, .loader, select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+	border-color: #002E5B;
+}
+
+.tp-caption.flat-button-slider, .tp-caption.flat-button-slider:hover {
+	border-color: #002E5B!important;
+}
+
+.tp-caption.flat-button-slider:hover {
+	background-color: #002E5B!important;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus {
+	border-color: #002E5B;
+}
+
+/* Background Color
+-------------------------------------------------------------- */
+#mainnav > ul > li.home a:before,
+.flat-button-slider.bg-button-slider-32bfc0,
+.iconbox .box-header i,
+.flat-portfolio .item .overlay,
+.title-section .title:before,
+.owl-theme .owl-controls .owl-nav div,
+.iconbox .box-header i,
+.flat-button,
+article .post-comment,
+.blog-carosuel .content-post:after,
+.blog-carosuel.owl-theme .owl-dots .owl-dot:hover span,
+.requestform input[type="submit"],
+#flat-testimonials-flexslider blockquote::after,
+.flat-row.mail-chimp,
+.go-top,
+.flat-button-slider:hover,
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span,
+.sidebar .widget:after,
+.flex-direction-nav a, 
+.blog-pagination .flat-pagination li.active,
+.blog-pagination .flat-pagination li a:hover,
+.accent-button a,
+.comments-area ol.comment-list article .reply .comment-reply-link,
+.comment-respond .comment-submit,
+#mainnav ul.submenu:before,
+#mainnav ul.submenu > li > a:hover,
+.blog-single .direction ul li ul.social-icons li a:hover,
+#mainnav > ul > li.home > a:after,
+#mainnav > ul > li > a:after,
+.iconbox.square .box-header i, article ul.meta-post li, .black-button a:hover, .btn-menu:before, .btn-menu:after, .btn-menu span {
+	background-color: #002E5B;
+}
+
+.iconbox.square:hover i {
+    background: #333;
+}

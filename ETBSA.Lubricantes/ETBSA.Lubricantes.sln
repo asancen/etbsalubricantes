@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETBSA.Presentation.Front.Web", "ETBSA.Presentation.Front.Web\ETBSA.Presentation.Front.Web.csproj", "{A5174B3C-7799-4AAC-AB6F-7348DEA036F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETBSA.Presentation.Front.Web2", "ETBSA.Presentation.Front.Web2\ETBSA.Presentation.Front.Web2.csproj", "{63087B17-2790-433E-81CD-106DA5E0298E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +19,16 @@ Global
 		{A5174B3C-7799-4AAC-AB6F-7348DEA036F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5174B3C-7799-4AAC-AB6F-7348DEA036F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5174B3C-7799-4AAC-AB6F-7348DEA036F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63087B17-2790-433E-81CD-106DA5E0298E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63087B17-2790-433E-81CD-106DA5E0298E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63087B17-2790-433E-81CD-106DA5E0298E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63087B17-2790-433E-81CD-106DA5E0298E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A5174B3C-7799-4AAC-AB6F-7348DEA036F8} = {EAB84594-3380-4DCB-9185-34AB27792752}
+		{63087B17-2790-433E-81CD-106DA5E0298E} = {EAB84594-3380-4DCB-9185-34AB27792752}
 	EndGlobalSection
 EndGlobal
