@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Transporte comercial";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+@section banner{
+    <!-- Page title -->
+    <div class="page-title" style="background-image: url('@Url.Content("~/images/portfolio/categories.fw.png")'); background-position: center">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-title-heading">
+                        <h1 class="title" style=" border-radius: 10px; background-color: transparent;">&nbsp;</h1>
+                    </div><!-- /.page-title-captions -->
+                    <div class="breadcrumbs" style=" border-radius: 10px; background-color: transparent;">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div><!-- /.breadcrumbs -->
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.page-title -->
+}
+
+<!-- Blog posts -->
+<section class="main-content blog-posts blog-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="post-wrap">
+                    <article class="post clearfix">
+                        <div class="featured-post">
+                            <img src="@Url.Content("~/images/portfolio/transcategories.fw.png")" alt="image">
+                        </div><!-- /.feature-post -->
+
+                        <div class="content-post">
+                            <h2 class="title-post"><a href="blog-single.html">Transporte comercial</a></h2>
+
+                            <div class="" style="background-color: transparent; color: black;">
+                                <br />
+                                <p align="justify">
+                                    Los Productos Delo® Protegen. Tenemos los productos de lubricación probados y aptos para sus necesidades. Con la familia de productos Delo, puede contar con una calidad superior, protección de servicio prolongada y un desempeño sobresaliente. Desde la conducción urbana de pare y arranque hasta las operaciones de camiones de transporte de largas distancias, Delo puede ayudarle a que sus negocios vayan más lejos.
+                                </p>
+                            </div>
+                        </div><!-- /.content-post -->
+                    </article>
+
+                    <div class="main-single">
+                    </div>
+
+                </div><!-- /.post-wrap -->
+            </div><!-- /.col-md-8 -->
+
+            <div class="col-md-4">
+                <div class="sidebar">
+                    @Html.Partial("_MenuTransporte")
+                    @Html.Partial("_MenuCategorias")
+                </div><!-- /.sidebar -->
+            </div><!-- /.col-md-3 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section> 

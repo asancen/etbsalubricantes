@@ -1,0 +1,100 @@
+﻿@{
+    ViewBag.Title = "Productos";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+@section banner{
+    <!-- Page title -->
+    <div class="page-title" style="background-image: url('@Url.Content("~/images/portfolio/categories.fw.png")'); background-position: center">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-title-heading">
+                        <h1 class="title" style=" border-radius: 10px; background-color: transparent;">&nbsp;</h1>
+                    </div><!-- /.page-title-captions -->
+                    <div class="breadcrumbs" style=" border-radius: 10px; background-color: transparent;">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div><!-- /.breadcrumbs -->
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.page-title -->
+}
+
+<!-- Blog posts -->
+<section class="main-content blog-posts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="post-wrap">
+                    <article class="post clearfix">
+                        <div class="featured-post">
+                            <a href="@Url.Content("~/Productos/TransporteComercial")"><img src="@Url.Content("~/images/portfolio/cattransporte.jpeg")" alt="image"></a>
+                        </div><!-- /.feature-post -->
+                        <div class="content-post">
+                            <h2 class="title-post">
+                                <a href="@Url.Content("~/Productos/TransporteComercial")">
+                                    Transporte comercial
+                                </a>
+                            </h2>
+                        </div><!-- /.content-post -->
+                    </article>
+                </div><!-- /.post-wrap -->
+            </div><!-- /.col-md-9 -->
+            <div class="col-md-6">
+                <div class="post-wrap">
+                    <article class="post clearfix">
+                        <div class="featured-post">
+                            <img src="@Url.Content("~/images/portfolio/catpasajeros.jpg")" alt="image">
+                        </div><!-- /.feature-post -->
+                        <div class="content-post">
+                            <h2 class="title-post">
+                                <a href="blog-single.html">
+                                    Vahículos de pasajeros
+                                </a>
+                            </h2>
+                        </div><!-- /.content-post -->
+                    </article>
+                </div><!-- /.post-wrap -->
+            </div><!-- /.col-md-9 -->
+        </div><!-- /.row -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="post-wrap">
+                    <article class="post clearfix">
+                        <div class="featured-post">
+                            <img src="@Url.Content("~/images/portfolio/catindustrial.jpeg")" alt="image">
+                        </div><!-- /.feature-post -->
+                        <div class="content-post">
+                            <h2 class="title-post">
+                                <a href="blog-single.html">
+                                    Industrial
+                                </a>
+                            </h2>
+                        </div><!-- /.content-post -->
+                    </article>
+                </div><!-- /.post-wrap -->
+            </div><!-- /.col-md-9 -->
+            <div class="col-md-6">
+                <div class="post-wrap">
+                    <article class="post clearfix">
+                        <div class="featured-post">
+                            <img src="@Url.Content("~/images/portfolio/catagricola.jpeg")" alt="image">
+                        </div><!-- /.feature-post -->
+                        <div class="content-post">
+                            <h2 class="title-post">
+                                <a href="#">
+                                    Agrícola
+                                </a>
+                            </h2>
+                        </div><!-- /.content-post -->
+                    </article>
+                </div><!-- /.post-wrap -->
+            </div><!-- /.col-md-9 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section>

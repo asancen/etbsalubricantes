@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="chevronbajio.com" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\AlAs\\Documents\\GitHub\\etbsalubricantes\\ETBSA\.Lubricantes\\ETBSA\.Presentation\.Front\.Web2\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\AlAs\\Documents\\GitHub\\etbsalubricantes\\ETBSA\.Lubricantes\\ETBSA\.Presentation\.Front\.Web2\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-ETBSA.Presentation.Front.Web2-20180109112937.mdf;Initial Catalog=aspnet-ETBSA.Presentation.Front.Web2-20180109112937;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\AlAs\\Documents\\GitHub\\etbsalubricantes\\ETBSA\.Lubricantes\\ETBSA\.Presentation\.Front\.Web2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

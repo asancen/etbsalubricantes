@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-ETBSA.Presentation.Front.Web2-20180109112937.mdf;Initial Catalog=aspnet-ETBSA.Presentation.Front.Web2-20180109112937;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\AlAs\\Documents\\GitHub\\etbsalubricantes\\ETBSA\.Lubricantes\\ETBSA\.Presentation\.Front\.Web2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
